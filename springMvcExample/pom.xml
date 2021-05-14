@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>springMvcDemo</artifactId>
+	<artifactId>springMvcExample</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>springMvcDemo</name>
-	<description>Demo project for Spring Boot MVC </description>
+	<name>springMvcExample</name>
+	<description>Demo project for Spring Boot Mvc</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
@@ -27,15 +27,14 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-<!--added mvc dependency-->
+
+		<!--added mvc dependency-->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc</artifactId>
 			<version>5.3.6</version>
 		</dependency>
 	</dependencies>
-
-
 
 	<build>
 		<plugins>
